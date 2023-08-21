@@ -1,0 +1,1620 @@
+[
+	{
+		"id": "QGAMMA2T",
+		"type": "article-journal",
+		"abstract": "Brain signals refer to the biometric information collected from the human brain. The research on brain signals aims to discover the underlying neurological or physical status of the individuals by signal decoding. The emerging deep learning techniques have improved the study of brain signals significantly in recent years. In this work, we first present a taxonomy of non-invasive brain signals and the basics of deep learning algorithms. Then, we provide the frontiers of applying deep learning for non-invasive brain signals analysis, by summarizing a large number of recent publications. Moreover, upon the deep learning-powered brain signal studies, we report the potential real-world applications which benefit not only disabled people but also normal individuals. Finally, we discuss the opening challenges and future directions.",
+		"container-title": "Journal of Neural Engineering",
+		"DOI": "10.1088/1741-2552/abc902",
+		"ISSN": "1741-2552",
+		"issue": "3",
+		"journalAbbreviation": "J. Neural Eng.",
+		"language": "en",
+		"note": "publisher: IOP Publishing",
+		"page": "031002",
+		"source": "Institute of Physics",
+		"title": "A survey on deep learning-based non-invasive brain signals: recent advances and new frontiers",
+		"title-short": "A survey on deep learning-based non-invasive brain signals",
+		"URL": "https://dx.doi.org/10.1088/1741-2552/abc902",
+		"volume": "18",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Wang",
+				"given": "Xianzhi"
+			},
+			{
+				"family": "Monaghan",
+				"given": "Jessica"
+			},
+			{
+				"family": "McAlpine",
+				"given": "David"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yu"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "UK5Q9VNK",
+		"type": "paper-conference",
+		"abstract": "Deep learning methods for graphs achieve remarkable performance on many tasks. However, despite the proliferation of such methods and their success, recent findings indicate that small, unnoticeable perturbations of graph structure can catastrophically reduce performance of even the strongest and most popular Graph Neural Networks (GNNs). Here, we develop GNNGuard, a general defense approach against a variety of training-time attacks that perturb the discrete graph structure. GNNGuard can be straightforwardly incorporated into any GNN. Its core principle is to detect and quantify the relationship between the graph structure and node features, if one exists, and then exploit that relationship to mitigate the negative effects of the attack. GNNGuard learns how to best assign higher weights to edges connecting similar nodes while pruning edges between unrelated nodes. The revised edges then allow the underlying GNN to robustly propagate neural messages in the graph. GNNGuard introduces two novel components, the neighbor importance estimation, and the layer-wise graph memory, and we show empirically that both components are necessary for a successful defense. Across five GNNs, three defense methods, and four datasets, including a challenging human disease graph, experiments show that GNNGuard outperforms existing defense approaches by 15.3% on average. Remarkably, GNNGuard can effectively restore state-of-the-art performance of GNNs in the face of various adversarial attacks, including targeted and non-targeted attacks, and can defend against attacks on heterophily graphs.",
+		"container-title": "Advances in Neural Information Processing Systems",
+		"page": "9263–9275",
+		"publisher": "Curran Associates, Inc.",
+		"source": "Neural Information Processing Systems",
+		"title": "GNNGuard: Defending Graph Neural Networks against Adversarial Attacks",
+		"title-short": "GNNGuard",
+		"URL": "https://proceedings.neurips.cc/paper/2020/hash/690d83983a63aa1818423fd6edd3bfdb-Abstract.html",
+		"volume": "33",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Zitnik",
+				"given": "Marinka"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "NICELE7V",
+		"type": "article-journal",
+		"abstract": "Brain-Computer Interface (BCI) is a system empowering humans to communicate with or control the outside world with exclusively brain intentions. Electroencephalography (EEG) based BCIs are promising solutions due to their convenient and portable instruments. Despite the extensive research of EEG in recent years, it is still challenging to interpret EEG signals effectively due to the massive noises in EEG signals (e.g., low signal-noise ratio and incomplete EEG signals), and difficulties in capturing the inconspicuous relationships between EEG signals and certain brain activities. Most existing works either only consider EEG as chain-like sequences neglecting complex dependencies between adjacent signals or requiring pre-processing such as transforming EEG waves into images. In this paper, we introduce both cascade and parallel convolutional recurrent neural network models for precisely identifying human intended movements and instructions effectively learning the compositional spatio-temporal representations of raw EEG streams. Extensive experiments on a large scale movement intention EEG dataset (108 subjects,3,145,160 EEG records) have demonstrated that both models achieve high accuracy near 98.3% and outperform a set of baseline methods and most recent deep learning based EEG recognition models, yielding a significant accuracy increase of 18% in the cross-subject validation scenario. The developed models are further evaluated with a real-world BCI and achieve a recognition accuracy of 93% over five instruction intentions. This suggests the proposed models are able to generalize over different kinds of intentions and BCI systems.",
+		"container-title": "Proceedings of the AAAI Conference on Artificial Intelligence",
+		"DOI": "10.1609/aaai.v32i1.11496",
+		"ISSN": "2374-3468",
+		"issue": "1",
+		"language": "en",
+		"license": "Copyright (c)",
+		"note": "number: 1",
+		"source": "ojs.aaai.org",
+		"title": "Cascade and Parallel Convolutional Recurrent Neural Networks on EEG-based Intention Recognition for Brain Computer Interface",
+		"URL": "https://ojs.aaai.org/index.php/AAAI/article/view/11496",
+		"volume": "32",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Dalin"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Wang",
+				"given": "Sen"
+			},
+			{
+				"family": "Chen",
+				"given": "Weitong"
+			},
+			{
+				"family": "Boots",
+				"given": "Robert"
+			},
+			{
+				"family": "Benatallah",
+				"given": "Boualem"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					4,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "4A2UZGWV",
+		"type": "paper-conference",
+		"abstract": "An electroencephalography (EEG) based Brain Computer Interface (BCI) enables people to communicate with the outside world by interpreting the EEG signals of their brains to interact with devices such as wheelchairs and intelligent robots. More specifically, motor imagery EEG (MI-EEG), which reflects a subject's active intent, is attracting increasing attention for a variety of BCI applications. Accurate classification of MI-EEG signals while essential for effective operation of BCI systems is challenging due to the significant noise inherent in the signals and the lack of informative correlation between the signals and brain activities. In this paper, we propose a novel deep neural network based learning framework that affords perceptive insights into the relationship between the MI-EEG data and brain activities. We design a joint convolutional recurrent neural network that simultaneously learns robust high-level feature presentations through low-dimensional dense embeddings from raw MI-EEG signals. We also employ an Autoencoder layer to eliminate various artifacts such as background activities. The proposed approach has been evaluated extensively on a large-scale public MI-EEG dataset and a limited but easy-to-deploy dataset collected in our lab. The results show that our approach outperforms a series of baselines and the competitive state-of-the-art methods, yielding a classification accuracy of 95.53%. The applicability of our proposed approach is further demonstrated with a practical BCI system for typing.",
+		"container-title": "2018 IEEE International Conference on Pervasive Computing and Communications (PerCom)",
+		"DOI": "10.1109/PERCOM.2018.8444575",
+		"event-title": "2018 IEEE International Conference on Pervasive Computing and Communications (PerCom)",
+		"note": "ISSN: 2474-249X",
+		"page": "1-10",
+		"source": "IEEE Xplore",
+		"title": "Converting Your Thoughts to Texts: Enabling Brain Typing via Deep Feature Learning of EEG Signals",
+		"title-short": "Converting Your Thoughts to Texts",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Sheng",
+				"given": "Quan Z."
+			},
+			{
+				"family": "Kanhere",
+				"given": "Salil S."
+			},
+			{
+				"family": "Gu",
+				"given": "Tao"
+			},
+			{
+				"family": "Zhang",
+				"given": "Dalin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "JUZBEPEY",
+		"type": "paper-conference",
+		"abstract": "Deep learning algorithms have achieved excellent performance lately in a wide range of fields (e.g., computer version). However, a severe challenge faced by deep learning is the high dependency on hyper-parameters. The algorithm results may fluctuate dramatically under the different configuration of hyper-parameters. Addressing the above issue, this paper presents an efficient Orthogonal Array Tuning Method (OATM) for deep learning hyper-parameter tuning. We describe the OATM approach in five detailed steps and elaborate on it using two widely used deep neural network structures (Recurrent Neural Networks and Convolutional Neural Networks). The proposed method is compared to the state-of-the-art hyper-parameter tuning methods including manually (e.g., grid search and random search) and automatically (e.g., Bayesian Optimization) ones. The experiment results state that OATM can significantly save the tuning time compared to the state-of-the-art methods while preserving the satisfying performance.",
+		"collection-title": "Communications in Computer and Information Science",
+		"container-title": "Neural Information Processing",
+		"DOI": "10.1007/978-3-030-36808-1_31",
+		"event-place": "Cham",
+		"ISBN": "978-3-030-36808-1",
+		"language": "en",
+		"page": "287-295",
+		"publisher": "Springer International Publishing",
+		"publisher-place": "Cham",
+		"source": "Springer Link",
+		"title": "Deep Neural Network Hyperparameter Optimization with Orthogonal Array Tuning",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Chen",
+				"given": "Xiaocong"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Ge",
+				"given": "Chang"
+			},
+			{
+				"family": "Dong",
+				"given": "Manqing"
+			}
+		],
+		"editor": [
+			{
+				"family": "Gedeon",
+				"given": "Tom"
+			},
+			{
+				"family": "Wong",
+				"given": "Kok Wai"
+			},
+			{
+				"family": "Lee",
+				"given": "Minho"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "88GD35A6",
+		"type": "article-journal",
+		"abstract": "A brain-computer interface (BCI) acquires brain signals, analyzes, and translates them into commands that are relayed to actuation devices for carrying out desired actions. With the widespread connectivity of everyday devices realized by the advent of the Internet of Things (IoT), BCI can empower individuals to directly control objects such as smart home appliances or assistive robots, directly via their thoughts. However, realization of this vision is faced with a number of challenges, most importantly being the issue of accurately interpreting the intent of the individual from the raw brain signals that are often of low fidelity and subject to noise. Moreover, preprocessing brain signals and the subsequent feature engineering are both time-consuming and highly reliant on human domain expertise. To address the aforementioned issues, in this paper, we propose a unified deep learning-based framework that enables effective human-thing cognitive interactivity in order to bridge individuals and IoT objects. We design a reinforcement learning-based selective attention mechanism (SAM) to discover the distinctive features from the input brain signals. In addition, we propose a modified long short-term memory to distinguish the interdimensional information forwarded from the SAM. To evaluate the efficiency of the proposed framework, we conduct extensive real-world experiments and demonstrate that our model outperforms a number of competitive state-of-the-art baselines. Two practical real-time human-thing cognitive interaction applications are presented to validate the feasibility of our approach.",
+		"container-title": "IEEE Internet of Things Journal",
+		"DOI": "10.1109/JIOT.2018.2877786",
+		"ISSN": "2327-4662",
+		"issue": "2",
+		"note": "event-title: IEEE Internet of Things Journal",
+		"page": "2084-2092",
+		"source": "IEEE Xplore",
+		"title": "Internet of Things Meets Brain–Computer Interface: A Unified Deep Learning Framework for Enabling Human-Thing Cognitive Interactivity",
+		"title-short": "Internet of Things Meets Brain–Computer Interface",
+		"volume": "6",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Zhang",
+				"given": "Shuai"
+			},
+			{
+				"family": "Kanhere",
+				"given": "Salil"
+			},
+			{
+				"family": "Sheng",
+				"given": "Michael"
+			},
+			{
+				"family": "Liu",
+				"given": "Yunhao"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "LXUIMDZM",
+		"type": "chapter",
+		"abstract": "Recognition of human intention based on Electroencephalography (EEG) signals attracts strong research interest in pattern recognition because of its promising applications that enable non-muscular communications and controls. Over the past few years, most EEG-based recognition works make significant efforts to learn extracted features to explore specific patterns between a segment of EEG signals and the corresponding activities. Unfortunately, vectorization-based feature representations, either vector-like or matrix-like ones, suffer from massive signal noise and difficulties of exploiting signal correlations between adjacent sensors of EEG signals. Most importantly, EEG signals are represented by one unique frequency and then fed into the subsequent learning model. Neglecting different frequencies of EEG signals can be detrimental to activity recognition because a particular frequency of EEG signals is more helpful to recognize some activities. Inspired by this idea, we propose to extract EEG signals with different frequencies and introduce a novel Multi-task deep learning model to learn the human intentions. We have conducted extensive experiments on a publicly available EEG benchmark dataset and compared our method with many state-of-the-art algorithms. The experimental results demonstrate that the proposed Multi-task deep recurrent neural network outperforms all the compared methods in a multi-class scenario.",
+		"collection-title": "Proceedings",
+		"container-title": "Proceedings of the 2018 SIAM International Conference on Data Mining (SDM)",
+		"note": "DOI: 10.1137/1.9781611975321.32",
+		"page": "279-287",
+		"publisher": "Society for Industrial and Applied Mathematics",
+		"source": "epubs.siam.org (Atypon)",
+		"title": "EEG-based Motion Intention Recognition via Multi-task RNNs",
+		"URL": "https://epubs.siam.org/doi/abs/10.1137/1.9781611975321.32",
+		"author": [
+			{
+				"family": "Chen",
+				"given": "Weitong"
+			},
+			{
+				"family": "Wang",
+				"given": "Sen"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Yue",
+				"given": "Lin"
+			},
+			{
+				"family": "Qian",
+				"given": "Buyue"
+			},
+			{
+				"family": "Li",
+				"given": "Xue"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					5,
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "CPL2YGM3",
+		"type": "article-journal",
+		"abstract": "Person identification technology recognizes individuals by exploiting their unique, measurable physiological and behavioral characteristics. However, the state-of-the-art person identification systems have been shown to be vulnerable, e.g., anti-surveillance prosthetic masks can thwart face recognition, contact lenses can trick iris recognition, vocoder can compromise voice identification and fingerprint films can deceive fingerprint sensors. EEG (Electroencephalography)-based identification, which utilizes the user's brainwave signals for identification and offers a more resilient solution, has recently drawn a lot of attention. However, the state-of-the-art systems cannot achieve similar accuracy as the aforementioned methods. We propose MindID, an EEG-based biometric identification approach, with the aim of achieving high accuracy and robust performance. At first, the EEG data patterns are analyzed and the results show that the Delta pattern contains the most distinctive information for user identification. Next, the decomposed Delta signals are fed into an attention-based Encoder-Decoder RNNs (Recurrent Neural Networks) structure which assigns varying attention weights to different EEG channels based on their importance. The discriminative representations learned from the attention-based RNN are used to identify the user through a boosting classifier. The proposed approach is evaluated over 3 datasets (two local and one public). One local dataset (EID-M) is used for performance assessment and the results illustrate that our model achieves an accuracy of 0.982 and significantly outperforms the state-of-the-art and relevant baselines. The second local dataset (EID-S) and a public dataset (EEG-S) are utilized to demonstrate the robustness and adaptability, respectively. The results indicate that the proposed approach has the potential to be widely deployed in practical settings.",
+		"container-title": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+		"DOI": "10.1145/3264959",
+		"issue": "3",
+		"journalAbbreviation": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+		"page": "149:1–149:23",
+		"source": "ACM Digital Library",
+		"title": "MindID: Person Identification from Brain Waves through Attention-based Recurrent Neural Network",
+		"title-short": "MindID",
+		"URL": "https://dl.acm.org/doi/10.1145/3264959",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Kanhere",
+				"given": "Salil S."
+			},
+			{
+				"family": "Liu",
+				"given": "Yunhao"
+			},
+			{
+				"family": "Gu",
+				"given": "Tao"
+			},
+			{
+				"family": "Chen",
+				"given": "Kaixuan"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					9,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "AX9QS3SJ",
+		"type": "paper-conference",
+		"abstract": "Electroencephalography (EEG) signal based intent recognition has recently attracted much attention in both academia and industries, due to helping the elderly or motor-disabled people controlling smart devices to communicate with outer world. However, the utilization of EEG signals is challenged by low accuracy, arduous and time-consuming feature extraction. This paper proposes a 7-layer deep learning model to classify raw EEG signals with the aim of recognizing subjects’ intents, to avoid the time consumed in pre-processing and feature extraction. The hyper-parameters are selected by an Orthogonal Array experiment method for efficiency. Our model is applied to an open EEG dataset provided by PhysioNet and achieves the accuracy of 0.9553 on the intent recognition. The applicability of our proposed model is further demonstrated by two use cases of smart living (assisted living with robotics and home automation).",
+		"collection-title": "Lecture Notes in Computer Science",
+		"container-title": "Neural Information Processing",
+		"DOI": "10.1007/978-3-319-70096-0_76",
+		"event-place": "Cham",
+		"ISBN": "978-3-319-70096-0",
+		"language": "en",
+		"page": "748-758",
+		"publisher": "Springer International Publishing",
+		"publisher-place": "Cham",
+		"source": "Springer Link",
+		"title": "Intent Recognition in Smart Living Through Deep Recurrent Neural Networks",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Huang",
+				"given": "Chaoran"
+			},
+			{
+				"family": "Sheng",
+				"given": "Quan Z."
+			},
+			{
+				"family": "Wang",
+				"given": "Xianzhi"
+			}
+		],
+		"editor": [
+			{
+				"family": "Liu",
+				"given": "Derong"
+			},
+			{
+				"family": "Xie",
+				"given": "Shengli"
+			},
+			{
+				"family": "Li",
+				"given": "Yuanqing"
+			},
+			{
+				"family": "Zhao",
+				"given": "Dongbin"
+			},
+			{
+				"family": "El-Alfy",
+				"given": "El-Sayed M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "EV2KA7TJ",
+		"type": "article-journal",
+		"abstract": "Epilepsy is a chronic neurological disorder characterized by the occurrence of spontaneous seizures, which affects about one percent of the worlds population. Most of the current seizure detection approaches strongly rely on patient history records and thus fail in the patient-independent situation of detecting the new patients. To overcome such limitation, we propose a robust and explainable epileptic seizure detection model that effectively learns from seizure states while eliminates the inter-patient noises. A complex deep neural network model is proposed to learn the pure seizure-specific representation from the raw non-invasive electroencephalography (EEG) signals through adversarial training. Furthermore, to enhance the explainability, we develop an attention mechanism to automatically learn the importance of each EEG channels in the seizure diagnosis procedure. The proposed approach is evaluated over the Temple University Hospital EEG (TUH EEG) database. The experimental results illustrate that our model outperforms the competitive state-of-the-art baselines with low latency. Moreover, the designed attention mechanism is demonstrated ables to provide fine-grained information for pathological analysis. We propose an effective and efficient patient-independent diagnosis approach of epileptic seizure based on raw EEG signals without manually feature engineering, which is a step toward the development of large-scale deployment for real-life use.",
+		"container-title": "IEEE Journal of Biomedical and Health Informatics",
+		"DOI": "10.1109/JBHI.2020.2971610",
+		"ISSN": "2168-2208",
+		"issue": "10",
+		"note": "event-title: IEEE Journal of Biomedical and Health Informatics",
+		"page": "2852-2859",
+		"source": "IEEE Xplore",
+		"title": "Adversarial Representation Learning for Robust Patient-Independent Epileptic Seizure Detection",
+		"volume": "24",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Dong",
+				"given": "Manqing"
+			},
+			{
+				"family": "Liu",
+				"given": "Zhe"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yu"
+			},
+			{
+				"family": "Li",
+				"given": "Yong"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "6TPGVHLE",
+		"type": "paper-conference",
+		"abstract": "An electroencephalography (EEG) based brain activity recognition is a fundamental field of study for a number of significant applications such as intention prediction, appliance control, and neurological disease diagnosis in smart home and smart healthcare domains. Existing techniques mostly focus on binary brain activity recognition for a single person, which limits their deployment in wider and complex practical scenarios. Therefore, multi-person and multi-class brain activity recognition has obtained popularity recently. Another challenge faced by brain activity recognition is the low recognition accuracy due to the massive noises and the low signal-to-noise ratio in EEG signals. Moreover, the feature engineering in EEG processing is time-consuming and highly relies on the expert experience. In this paper, we attempt to solve the above challenges by proposing an approach which has better EEG interpretation ability via raw Electroencephalography (EEG) signal analysis for multi-person and multi-class brain activity recognition. Specifically, we analyze inter-class and inter-person EEG signal characteristics, based on which to capture the discrepancy of inter-class EEG data. Then, we adopt an Autoencoder layer to automatically refine the raw EEG signals by eliminating various artifacts. We evaluate our approach on both a public and a local EEG datasets and conduct extensive experiments to explore the effect of several factors (such as normalization methods, training data size, and Autoencoder hidden neuron size) on the recognition results. The experimental results show that our approach achieves a high accuracy comparing to competitive state-of-the-art methods, indicating its potential in promoting future research on multi-person EEG recognition.",
+		"collection-title": "MobiQuitous 2017",
+		"container-title": "Proceedings of the 14th EAI International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",
+		"DOI": "10.1145/3144457.3144477",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-1-4503-5368-7",
+		"page": "28–37",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "Multi-Person Brain Activity Recognition via Comprehensive EEG Signal Analysis",
+		"URL": "https://dl.acm.org/doi/10.1145/3144457.3144477",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Zhang",
+				"given": "Dalin"
+			},
+			{
+				"family": "Wang",
+				"given": "Xianzhi"
+			},
+			{
+				"family": "Sheng",
+				"given": "Quan Z."
+			},
+			{
+				"family": "Gu",
+				"given": "Tao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					11,
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "WYBXXA82",
+		"type": "article-journal",
+		"abstract": "Unlike all prior work, in this article, we investigate the notion of “unraveling metric vector spaces,” i.e., deriving meaning and low-rank structure from distance or metric space. Our new model bridges two commonly adopted paradigms for recommendations-metric learning approaches and factorization-based models, distinguishing itself accordingly. More concretely, we show that factorizing a metric vector space can be surprisingly efficacious. All in all, our proposed method, factorized metric learning, is highly effective for two classic recommendation tasks, possessing the potential of displacing many popular choices as an extremely strong baseline. We have done experiments on a number of real-world datasets, which show that our model performs better than recent state of the art largely on the rating prediction and item ranking tasks.",
+		"container-title": "IEEE Transactions on Industrial Informatics",
+		"DOI": "10.1109/TII.2019.2947112",
+		"ISSN": "1941-0050",
+		"issue": "2",
+		"note": "event-title: IEEE Transactions on Industrial Informatics",
+		"page": "732-742",
+		"source": "IEEE Xplore",
+		"title": "Unraveling Metric Vector Spaces With Factorization for Recommendation",
+		"volume": "16",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Shuai"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Wu",
+				"given": "Bin"
+			},
+			{
+				"family": "Xu",
+				"given": "Xiwei"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Zhu",
+				"given": "Liming"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "APXQC8XV",
+		"type": "article-journal",
+		"abstract": "Biometric authentication involves various technologies to identify individuals by exploiting their unique, measurable physiological and behavioral characteristics. However, traditional biometric authentication systems (e.g., face recognition, iris, retina, voice, and fingerprint) are at increasing risks of being tricked by biometric tools such as anti-surveillance masks, contact lenses, vocoder, or fingerprint films. In this article, we design a multimodal biometric authentication system named DeepKey, which uses both Electroencephalography (EEG) and gait signals to better protect against such risk. DeepKey consists of two key components: an Invalid ID Filter Model to block unauthorized subjects, and an identification model based on attention-based Recurrent Neural Network (RNN) to identify a subject’s EEG IDs and gait IDs in parallel. The subject can only be granted access while all the components produce consistent affirmations to match the user’s proclaimed identity. We implement DeepKey with a live deployment in our university and conduct extensive empirical experiments to study its technical feasibility in practice. DeepKey achieves the False Acceptance Rate (FAR) and the False Rejection Rate (FRR) of 0 and 1.0%, respectively. The preliminary results demonstrate that DeepKey is feasible, shows consistent superior performance compared to a set of methods, and has the potential to be applied to the authentication deployment in real-world settings.",
+		"container-title": "ACM Transactions on Intelligent Systems and Technology",
+		"DOI": "10.1145/3393619",
+		"ISSN": "2157-6904",
+		"issue": "4",
+		"journalAbbreviation": "ACM Trans. Intell. Syst. Technol.",
+		"page": "49:1–49:24",
+		"source": "ACM Digital Library",
+		"title": "DeepKey: A Multimodal Biometric Authentication System via Deep Decoding Gaits and Brainwaves",
+		"title-short": "DeepKey",
+		"URL": "https://dl.acm.org/doi/10.1145/3393619",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Huang",
+				"given": "Chaoran"
+			},
+			{
+				"family": "Gu",
+				"given": "Tao"
+			},
+			{
+				"family": "Yang",
+				"given": "Zheng"
+			},
+			{
+				"family": "Liu",
+				"given": "Yunhao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					31
+				]
+			]
+		}
+	},
+	{
+		"id": "DJSEYHD3",
+		"type": "article",
+		"abstract": "Multimodal wearable sensor data classification plays an important role in ubiquitous computing and has a wide range of applications in scenarios from healthcare to entertainment. However, most existing work in this field employs domain-specific approaches and is thus ineffective in complex sit- uations where multi-modality sensor data are col- lected. Moreover, the wearable sensor data are less informative than the conventional data such as texts or images. In this paper, to improve the adapt- ability of such classification methods across differ- ent application domains, we turn this classification task into a game and apply a deep reinforcement learning scheme to deal with complex situations dynamically. Additionally, we introduce a selective attention mechanism into the reinforcement learn- ing scheme to focus on the crucial dimensions of the data. This mechanism helps to capture extra information from the signal and thus it is able to significantly improve the discriminative power of the classifier. We carry out several experiments on three wearable sensor datasets and demonstrate the competitive performance of the proposed approach compared to several state-of-the-art baselines.",
+		"DOI": "10.48550/arXiv.1804.05493",
+		"note": "arXiv:1804.05493 [cs]",
+		"number": "arXiv:1804.05493",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Multi-modality Sensor Data Classification with Selective Attention",
+		"URL": "http://arxiv.org/abs/1804.05493",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Huang",
+				"given": "Chaoran"
+			},
+			{
+				"family": "Wang",
+				"given": "Sen"
+			},
+			{
+				"family": "Tan",
+				"given": "Mingkui"
+			},
+			{
+				"family": "Long",
+				"given": "Guodong"
+			},
+			{
+				"family": "Wang",
+				"given": "Can"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					5,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "QW3QIAAG",
+		"type": "paper-conference",
+		"abstract": "Semi-supervised learning is sought for leveraging the unlabelled data when labelled data is difficult or expensive to acquire. Deep generative models (e.g., Variational Autoencoder (VAE)) and semi-supervised Generative Adversarial Networks (GANs) have recently shown promising performance in semi-supervised classification for the excellent discriminative representing ability. However, the latent code learned by the traditional VAE is not exclusive (repeatable) for a specific input sample, which prevents it from excellent classification performance. In particular, the learned latent representation depends on a non-exclusive component which is stochastically sampled from the prior distribution. Moreover, the semi-supervised GAN models generate data from pre-defined distribution (e.g., Gaussian noises) which is independent of the input data distribution and may obstruct the convergence and is difficult to control the distribution of the generated data. To address the aforementioned issues, we propose a novel Adversarial Variational Embedding (AVAE) framework for robust and effective semi-supervised learning to leverage both the advantage of GAN as a high quality generative model and VAE as a posterior distribution learner. The proposed approach first produces an exclusive latent code by the model which we call VAE++, and meanwhile, provides a meaningful prior distribution for the generator of GAN. The proposed approach is evaluated over four different real-world applications and we show that our method outperforms the state-of-the-art models, which confirms that the combination of VAE++ and GAN can provide significant improvements in semi-supervised lassification.",
+		"collection-title": "KDD '19",
+		"container-title": "Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining",
+		"DOI": "10.1145/3292500.3330966",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-1-4503-6201-6",
+		"page": "139–147",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "Adversarial Variational Embedding for Robust Semi-supervised Learning",
+		"URL": "https://dl.acm.org/doi/10.1145/3292500.3330966",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Yuan",
+				"given": "Feng"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					7,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "EWKC7V45",
+		"type": "article-journal",
+		"container-title": "Advances in Neural Information Processing Systems",
+		"language": "en",
+		"page": "3988-4003",
+		"source": "proceedings.neurips.cc",
+		"title": "Self-Supervised Contrastive Pre-Training For Time Series via Time-Frequency Consistency",
+		"URL": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/194b8dac525581c346e30a2cebe9a369-Abstract-Conference.html",
+		"volume": "35",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Zhao",
+				"given": "Ziyuan"
+			},
+			{
+				"family": "Tsiligkaridis",
+				"given": "Theodoros"
+			},
+			{
+				"family": "Zitnik",
+				"given": "Marinka"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "XYFT98JI",
+		"type": "article",
+		"abstract": "In many domains, including healthcare, biology, and climate science, time series are irregularly sampled with varying time intervals between successive readouts and different subsets of variables (sensors) observed at different time points. Here, we introduce RAINDROP, a graph neural network that embeds irregularly sampled and multivariate time series while also learning the dynamics of sensors purely from observational data. RAINDROP represents every sample as a separate sensor graph and models time-varying dependencies between sensors with a novel message passing operator. It estimates the latent sensor graph structure and leverages the structure together with nearby observations to predict misaligned readouts. This model can be interpreted as a graph neural network that sends messages over graphs that are optimized for capturing time-varying dependencies among sensors. We use RAINDROP to classify time series and interpret temporal dynamics on three healthcare and human activity datasets. RAINDROP outperforms state-of-the-art methods by up to 11.4% (absolute F1-score points), including techniques that deal with irregular sampling using fixed discretization and set functions. RAINDROP shows superiority in diverse setups, including challenging leave-sensor-out settings.",
+		"DOI": "10.48550/arXiv.2110.05357",
+		"note": "arXiv:2110.05357 [cs]",
+		"number": "arXiv:2110.05357",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Graph-Guided Network for Irregularly Sampled Multivariate Time Series",
+		"URL": "http://arxiv.org/abs/2110.05357",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Zeman",
+				"given": "Marko"
+			},
+			{
+				"family": "Tsiligkaridis",
+				"given": "Theodoros"
+			},
+			{
+				"family": "Zitnik",
+				"given": "Marinka"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					3,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "Y8K282JB",
+		"type": "article-journal",
+		"abstract": "Automatic identification of animal species by their vocalization is an important and challenging task. Although many kinds of audio monitoring system have been proposed in the literature, they suffer from several disadvantages such as non-trivial feature selection, accuracy degradation because of environmental noise or intensive local computation. In this paper, we propose a deep learning based acoustic classification framework for Wireless Acoustic Sensor Network (WASN). The proposed framework is based on cloud architecture which relaxes the computational burden on the wireless sensor node. To improve the recognition accuracy, we design a multi-view Convolution Neural Network (CNN) to extract the short-, middle-, and long-term dependencies in parallel. The evaluation on two real datasets shows that the proposed architecture can achieve high accuracy and outperforms traditional classification systems significantly when the environmental noise dominate the audio signal (low SNR). Moreover, we implement and deploy the proposed system on a testbed and analyse the system performance in real-world environments. Both simulation and real-world evaluation demonstrate the accuracy and robustness of the proposed acoustic classification system in distinguishing species of animals.",
+		"container-title": "Ad Hoc Networks",
+		"DOI": "10.1016/j.adhoc.2020.102115",
+		"ISSN": "1570-8705",
+		"journalAbbreviation": "Ad Hoc Networks",
+		"page": "102115",
+		"source": "ScienceDirect",
+		"title": "A multi-view CNN-based acoustic classification system for automatic animal species identification",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S1570870519308923",
+		"volume": "102",
+		"author": [
+			{
+				"family": "Xu",
+				"given": "Weitao"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Xue",
+				"given": "Wanli"
+			},
+			{
+				"family": "Wei",
+				"given": "Bo"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "Z7KDZ9UB",
+		"type": "article",
+		"abstract": "Synthesizing geometrical shapes from human brain activities is an interesting and meaningful but very challenging topic. Recently, the advancements of deep generative models like Generative Adversarial Networks (GANs) have supported the object generation from neurological signals. However, the Electroencephalograph (EEG)-based shape generation still suffer from the low realism problem. In particular, the generated geometrical shapes lack clear edges and fail to contain necessary details. In light of this, we propose a novel multi-task generative adversarial network to convert the individual's EEG signals evoked by geometrical shapes to the original geometry. First, we adopt a Convolutional Neural Network (CNN) to learn highly informative latent representation for the raw EEG signals, which is vital for the subsequent shape reconstruction. Next, we build the discriminator based on multi-task learning to distinguish and classify fake samples simultaneously, where the mutual promotion between different tasks improves the quality of the recovered shapes. Then, we propose a semantic alignment constraint in order to force the synthesized samples to approach the real ones in pixel-level, thus producing more compelling shapes. The proposed approach is evaluated over a local dataset and the results show that our model outperforms the competitive state-of-the-art baselines.",
+		"DOI": "10.48550/arXiv.1907.13351",
+		"note": "arXiv:1907.13351 [cs, eess]",
+		"number": "arXiv:1907.13351",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Multi-task Generative Adversarial Learning on Geometrical Shape Reconstruction from EEG Brain Signals",
+		"URL": "http://arxiv.org/abs/1907.13351",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Chen",
+				"given": "Xiaocong"
+			},
+			{
+				"family": "Dong",
+				"given": "Manqing"
+			},
+			{
+				"family": "Liu",
+				"given": "Huan"
+			},
+			{
+				"family": "Ge",
+				"given": "Chang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					2,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "GISYF859",
+		"type": "article-journal",
+		"abstract": "Supply–demand imbalance poses significant challenges to transportation systems such as taxis and shared vehicles (cars and bikes) and leads to excessive delays, income loss, and energy consumption. Accurate prediction of passenger demands is an essential step towards rescheduling resources to resolve the above challenges. However, existing work cannot fully capture and leverage the complex nonlinear spatial–temporal relationships within multi-modal data. They either include excessive data from weakly-correlated regions or oversight the correlations among those similar yet geographically distant regions. Moreover, these methods mainly focus on predicting the passenger demand for one future time step, whereas predictions over longer time scales are more valuable for developing efficient vehicle deployment strategies. We propose an end-to-end deep learning based framework to solve the above challenges. Our model comprises three parts: (1) a cascade graph convolutional recurrent neural network to extract spatial–temporal correlations within citywide historical vehicle demand data; (2) two multi-layer LSTM networks to represent the external meteorological data and time meta separately; (3) an encoder–decoder module to fuse the above two parts and decode the representation to achieve prediction over a longer time period into the future. We evaluate our framework on three real-world datasets and show that our model can better capture the spatial–temporal relationships and outperform the most discriminative state-of-the-art methods.",
+		"container-title": "Future Generation Computer Systems",
+		"DOI": "10.1016/j.future.2021.03.003",
+		"ISSN": "0167-739X",
+		"journalAbbreviation": "Future Generation Computer Systems",
+		"page": "25-34",
+		"source": "ScienceDirect",
+		"title": "Deep spatial–temporal sequence modeling for multi-step passenger demand prediction",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0167739X21000832",
+		"volume": "121",
+		"author": [
+			{
+				"family": "Bai",
+				"given": "Lei"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Wang",
+				"given": "Xianzhi"
+			},
+			{
+				"family": "Li",
+				"given": "Can"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					8,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "RNLWTII9",
+		"type": "article",
+		"abstract": "Electroencephalography (EEG) signals reflect activities on certain brain areas. Effective classification of time-varying EEG signals is still challenging. First, EEG signal processing and feature engineering are time-consuming and highly rely on expert knowledge. In addition, most existing studies focus on domain-specific classification algorithms which may not be applicable to other domains. Moreover, the EEG signal usually has a low signal-to-noise ratio and can be easily corrupted. In this regard, we propose a generic EEG signal classification framework that accommodates a wide range of applications to address the aforementioned issues. The proposed framework develops a reinforced selective attention model to automatically choose the distinctive information among the raw EEG signals. A convolutional mapping operation is employed to dynamically transform the selected information to an over-complete feature space, wherein implicit spatial dependency of EEG samples distribution is able to be uncovered. We demonstrate the effectiveness of the proposed framework using three representative scenarios: intention recognition with motor imagery EEG, person identification, and neurological diagnosis. Three widely used public datasets and a local dataset are used for our evaluation. The experiments show that our framework outperforms the state-of-the-art baselines and achieves the accuracy of more than 97% on all the datasets with low latency and good resilience of handling complex EEG signals across various domains. These results confirm the suitability of the proposed generic approach for a range of problems in the realm of Brain-Computer Interface applications.",
+		"DOI": "10.48550/arXiv.1802.03996",
+		"note": "arXiv:1802.03996 [cs]",
+		"number": "arXiv:1802.03996",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Know Your Mind: Adaptive Brain Signal Classification with Reinforced Attentive Convolutional Neural Networks",
+		"title-short": "Know Your Mind",
+		"URL": "http://arxiv.org/abs/1802.03996",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Wang",
+				"given": "Xianzhi"
+			},
+			{
+				"family": "Zhang",
+				"given": "Wenjie"
+			},
+			{
+				"family": "Zhang",
+				"given": "Shuai"
+			},
+			{
+				"family": "Liu",
+				"given": "Yunhao"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					8,
+					23
+				]
+			]
+		}
+	},
+	{
+		"id": "EIV36WPI",
+		"type": "article-journal",
+		"abstract": "Gesture recognition on the back surface of mobile phone, not limited to the touch screen, is an enabling Human-Computer Interaction (HCI) mechanism which enriches the user interaction experiences. However, there are two main limitations in the existing Back-of-Device (BoD) gesture recognition systems. They can only handle coarse-grained gesture recognition such as tap detection and cannot avoid the air-borne propagation suffering from the interference in the air. In this paper, we propose StruGesture, a fine-grained gesture recognition system using the back of mobile phones with ultrasonic signals. The key technique is to use the structure-borne sounds (i.e., sound propagation via structure of the device) to recognize sliding gestures on the back of mobile phones. StruGesture can fully extract the structure-borne component from the hybrid Channel Impulse Response (CIR) based on Peak Selection Algorithm. We develop a deep adversarial learning architecture to learn the gesture-specific representation for robust and effective recognition. Extensive experiments are designed to evaluate the robustness over nine deployment scenarios. The results show that StruGesture outperforms the competitive state-of-the-art classifiers by achieving an average recognition accuracy of 99.5% over 10 gestures.",
+		"container-title": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+		"DOI": "10.1145/3463522",
+		"issue": "2",
+		"journalAbbreviation": "Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.",
+		"page": "82:1–82:26",
+		"source": "ACM Digital Library",
+		"title": "Watching Your Phone's Back: Gesture Recognition by Sensing Acoustical Structure-borne Propagation",
+		"title-short": "Watching Your Phone's Back",
+		"URL": "https://dl.acm.org/doi/10.1145/3463522",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Wang",
+				"given": "Lei"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Jiang",
+				"given": "Yuanshuang"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yong"
+			},
+			{
+				"family": "Xu",
+				"given": "Chenren"
+			},
+			{
+				"family": "Gao",
+				"given": "Ruiyang"
+			},
+			{
+				"family": "Zhang",
+				"given": "Daqing"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "XHYPLFDU",
+		"type": "paper-conference",
+		"abstract": "The prevalence of online social media facilitates massive knowledge acquisition and sharing throughout the Web. Meanwhile, it inevitably poses the risk of generating and disseminating false information by both benign and malicious users. Despite there has been considerable research on false information detection from both the opinion-based and fact-based perspectives, they mostly focus on tailored solutions for a particular domain and carry out limited work on leveraging multi-faceted clues such as textual cues, behavioral trails, and relational connection. We propose a novel dual-stream attentive random forest that is capable of selecting clues of discriminative information from individuals, collective information (e.g., texts), and correlations of entities (e.g., social interactions) adaptively. In particular, we use an interpretive attention model for learning textual contents. The model treats the important and unimportant content differently when constructing the textual representation and employs a multilayer perceptron to capture the hidden complex relationships among features of side information. We further propose a unified framework for leveraging the above clues, where we use attentive forests to provide probabilistic distribution as predictions over the two learned representations, which are then leveraged to make a better estimation. We conduct extensive experiments on three real-world benchmark datasets for fake news and fake review detection. The results show our approach outperforms multiple baselines in the accuracy of detecting false information.",
+		"container-title": "2019 International Joint Conference on Neural Networks (IJCNN)",
+		"DOI": "10.1109/IJCNN.2019.8851765",
+		"event-title": "2019 International Joint Conference on Neural Networks (IJCNN)",
+		"note": "ISSN: 2161-4407",
+		"page": "1-8",
+		"source": "IEEE Xplore",
+		"title": "Dual-stream Self-Attentive Random Forest for False Information Detection",
+		"author": [
+			{
+				"family": "Dong",
+				"given": "Manqing"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Wang",
+				"given": "Xianzhi"
+			},
+			{
+				"family": "Benatallah",
+				"given": "Boualem"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Sheng",
+				"given": "Quan Z."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "ZAGN39IL",
+		"type": "article",
+		"abstract": "Electroencephalography (EEG) signals are known to manifest differential patterns when individuals visually concentrate on different objects. In this work, we present an end-to-end digital fabrication system, Brain2Object, to print the 3D object that an individual is observing by decoding visually-evoked brain signals. We propose a unified training framework that combines multi-class Common Spatial Pattern and Convolutional Neural Networks to support the backend computation. We learn the dynamical graph representations of brain signals to accurately capture the structural information among EEG channels. A user-friendly interface is developed as the system front end. Brain2Object presents a streamlined end-to-end workflow that can serve as a template for deeper integration of BCI technologies to assist with our routine activities. The proposed system is evaluated extensively using offline experiments and through an online demonstrator. The experimental results show that our approach can achieve the recognition accuracy of 92.58% on a benchmark dataset and 75.23% on a locally collected dataset. Moreover, our method consistently outperforms a wide range of baseline and state-of-the-art approaches. The proof-of-concept corroborates the practicality of our approach and illustrates the ease with which such a system could be deployed.",
+		"DOI": "10.48550/arXiv.1810.02223",
+		"note": "arXiv:1810.02223 [cs]",
+		"number": "arXiv:1810.02223",
+		"publisher": "arXiv",
+		"source": "arXiv.org",
+		"title": "Brain2Object: Printing Your Mind from Brain Signals with Spatial Correlation Embedding",
+		"title-short": "Brain2Object",
+		"URL": "http://arxiv.org/abs/1810.02223",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Huang",
+				"given": "Chaoran"
+			},
+			{
+				"family": "Kanhere",
+				"given": "Salil S."
+			},
+			{
+				"family": "Zhang",
+				"given": "Dalin"
+			},
+			{
+				"family": "Zhang",
+				"given": "Yu"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					6,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "YN5JWR7I",
+		"type": "article-journal",
+		"abstract": "Community Question Answering (CQA) websites can be claimed as the most major venues for knowledge sharing, and the most effective way of exchanging knowledge at present. Considering that massive amount of users are participating online and generating huge amount data, management of knowledge here systematically can be challenging. Expert recommendation is one of the major challenges, as it highlights users in CQA with potential expertise, which may help match unresolved questions with existing high quality answers while at the same time may help external services like human resource systems as another reference to evaluate their candidates. In this paper, we in this work we propose to exploring experts in CQA websites. We take advantage of recent distributed word representation technology to help summarize text chunks, and in a semantic view exploiting the relationships between natural language phrases to extract latent knowledge domains. By domains, the users’ expertise is determined on their historical performance, and a rank can be compute to given recommendation accordingly. In particular, Stack Overflow is chosen as our dataset to test and evaluate our work, where inclusive experiment shows our competence.",
+		"collection-title": "Image/Video Understanding and Analysis (IUVA)",
+		"container-title": "Pattern Recognition Letters",
+		"DOI": "10.1016/j.patrec.2018.10.030",
+		"ISSN": "0167-8655",
+		"journalAbbreviation": "Pattern Recognition Letters",
+		"page": "46-53",
+		"source": "ScienceDirect",
+		"title": "Software expert discovery via knowledge domain embeddings in a collaborative network",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0167865518308596",
+		"volume": "130",
+		"author": [
+			{
+				"family": "Huang",
+				"given": "Chaoran"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Wang",
+				"given": "Xianzhi"
+			},
+			{
+				"family": "Benatallah",
+				"given": "Boualem"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					2,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "54N3ABBS",
+		"type": "paper-conference",
+		"abstract": "Generative adversarial networks (GAN)-based approaches have been extensively investigated whereas GAN-inspired regression (i.e., numeric prediction) has rarely been studied in image and video processing domains. The lack of sufficient labeled data in many real-world cases poses great challenges to regression methods, which generally require sufficient labeled samples for their training. In this regard, we propose a unified framework that combines a robust autoencoder and a generative convolutional neural network (GCNN)-based regression model to address the regression problem. Our model is able to generate high-quality artificial samples via augmenting the size of a small number of training samples for better training effects. Extensive experiments are conducted on two real-world datasets and the results show that our proposed model consistently outperforms a set of advanced techniques under various evaluation metrics.",
+		"collection-title": "Lecture Notes in Computer Science",
+		"container-title": "Web Information Systems Engineering – WISE 2018",
+		"DOI": "10.1007/978-3-030-02925-8_21",
+		"event-place": "Cham",
+		"ISBN": "978-3-030-02925-8",
+		"language": "en",
+		"page": "301-311",
+		"publisher": "Springer International Publishing",
+		"publisher-place": "Cham",
+		"source": "Springer Link",
+		"title": "Data-Augmented Regression with Generative Convolutional Network",
+		"author": [
+			{
+				"family": "Ning",
+				"given": "Xiaodong"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			},
+			{
+				"family": "Wang",
+				"given": "Xianzhi"
+			},
+			{
+				"family": "Benatallah",
+				"given": "Boualem"
+			},
+			{
+				"family": "Zhang",
+				"given": "Shuai"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			}
+		],
+		"editor": [
+			{
+				"family": "Hacid",
+				"given": "Hakim"
+			},
+			{
+				"family": "Cellary",
+				"given": "Wojciech"
+			},
+			{
+				"family": "Wang",
+				"given": "Hua"
+			},
+			{
+				"family": "Paik",
+				"given": "Hye-Young"
+			},
+			{
+				"family": "Zhou",
+				"given": "Rui"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "LCE795SC",
+		"type": "article-journal",
+		"abstract": "Adverse patient safety events, unintended injuries resulting from medical therapy, were associated with 110,000 deaths in the United States in 2019. A nationwide pandemic (such as COVID-19) further challenges the ability of healthcare systems to ensure safe medication use and the pandemic’s effects on safety events remain poorly understood. Here, we investigate drug safety events across demographic groups before and during a pandemic using a dataset of 1,425,371 reports involving 2,821 drugs and 7,761 adverse events. Among 64 adverse events identified by our analyses, we find 54 increased in frequency during the pandemic, despite a 4.4% decrease in the total number of reports. Out of 53 adverse events with a pre-pandemic gender gap, 33 have seen their gap increase with the pandemic onset. We find that the number of adverse events with an increased reporting ratio is higher in adults (by 16.8%) than in older patients. Our findings have implications for safe medication use and preventable healthcare inequality in public health emergencies.",
+		"container-title": "Nature Computational Science",
+		"DOI": "10.1038/s43588-021-00138-4",
+		"ISSN": "2662-8457",
+		"issue": "10",
+		"journalAbbreviation": "Nat Comput Sci",
+		"language": "en",
+		"license": "2021 The Author(s)",
+		"note": "number: 10\npublisher: Nature Publishing Group",
+		"page": "666-677",
+		"source": "www.nature.com",
+		"title": "Population-scale identification of differential adverse events before and during a pandemic",
+		"URL": "https://www.nature.com/articles/s43588-021-00138-4",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Sumathipala",
+				"given": "Marissa"
+			},
+			{
+				"family": "Zitnik",
+				"given": "Marinka"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "5NR6PF6T",
+		"type": "paper-conference",
+		"abstract": "Community question answering (CQA) has attracted increasing attention recently due to its potential as a de facto knowledge base. Expert finding in CQA websites also has considerably board applications. Stack Overflow is one of the most popular question answering platforms, which is often utilized by recent studies on the recommendation of the domain expert. Despite the substantial progress seen recently, it still lacks relevant research on the direct representation of expert users. Hence hereby we propose Expert2Vec, a distributed Expert Representation learning in question answering community to boost the recommendation of the domain expert. Word2Vec is used to preprocess the Stack Overflow dataset, which helps to generate representations of domain topics. Weight rankings are then extracted based on domains and variational autoencoder (VAE) is unitized to generate representations of user-topic information. This finally adopts the reinforcement learning framework with the user-topic matrix to improve it internally. Experiments show the adequate performance of our proposed approaches in the recommendation system.",
+		"collection-title": "Lecture Notes in Computer Science",
+		"container-title": "Advanced Data Mining and Applications",
+		"DOI": "10.1007/978-3-030-35231-8_21",
+		"event-place": "Cham",
+		"ISBN": "978-3-030-35231-8",
+		"language": "en",
+		"page": "288-301",
+		"publisher": "Springer International Publishing",
+		"publisher-place": "Cham",
+		"source": "Springer Link",
+		"title": "Expert2Vec: Distributed Expert Representation Learning in Question Answering Community",
+		"title-short": "Expert2Vec",
+		"author": [
+			{
+				"family": "Chen",
+				"given": "Xiaocong"
+			},
+			{
+				"family": "Huang",
+				"given": "Chaoran"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			},
+			{
+				"family": "Wang",
+				"given": "Xianzhi"
+			},
+			{
+				"family": "Liu",
+				"given": "Wei"
+			},
+			{
+				"family": "Yao",
+				"given": "Lina"
+			}
+		],
+		"editor": [
+			{
+				"family": "Li",
+				"given": "Jianxin"
+			},
+			{
+				"family": "Wang",
+				"given": "Sen"
+			},
+			{
+				"family": "Qin",
+				"given": "Shaowen"
+			},
+			{
+				"family": "Li",
+				"given": "Xue"
+			},
+			{
+				"family": "Wang",
+				"given": "Shuliang"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "8GHCWHF8",
+		"type": "paper-conference",
+		"abstract": "With graph-structured tremendous information, Knowledge Graphs (KG) aroused increasing interest in aca-demic research and industrial applications. Recent studies have shown demographic bias, in terms of sensitive attributes (e.g., gender and race), exist in the learned representations of KG entities. Such bias negatively affects specific popu-lations, especially minorities and underrepresented groups, and exacerbates machine learning-based human inequality. Adversariallearning is regarded as an effective way to alleviate bias in the representation learning model by simultaneously training a task-specific predictor and a sensitive attribute-specific discriminator. However, due to the unique challenge caused by topological structure and the comprehensive re-lationship between knowledge entities, adversarial learning-based debiasing is rarely studied in representation learning in knowledge graphs. In this paper, we propose a framework to learn unbiased representations for nodes and edges in knowledge graph mining. Specifically, we integrate a simple-but-effective normalization technique with Graph Neural Networks (GNNs) to constrain the weights updating process. Moreover, as a work-in-progress paper, we also find that the introduced weights normalization technique can mitigate the pitfalls of instability in adversarial debasing towards fair-and-stable machine learning. We evaluate the proposed framework on a benchmarking graph with multiple edge types and node types. The experimental results show that our model achieves comparable or better gender fairness over three competitive baselines on Equality of Odds. Importantly, our superiority in the fair model does not scarify the performance in the knowledge graph task (i.e., multi-class edge classification).",
+		"container-title": "2022 IEEE International Conference on Data Mining Workshops (ICDMW)",
+		"DOI": "10.1109/ICDMW58026.2022.00119",
+		"event-title": "2022 IEEE International Conference on Data Mining Workshops (ICDMW)",
+		"note": "ISSN: 2375-9259",
+		"page": "901-909",
+		"source": "IEEE Xplore",
+		"title": "Towards Fair Representation Learning in Knowledge Graph with Stable Adversarial Debiasing",
+		"author": [
+			{
+				"family": "Wang",
+				"given": "Yihe"
+			},
+			{
+				"family": "Khalili",
+				"given": "Mohammad Mahdi"
+			},
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "XBE5BMY3",
+		"type": "paper-conference",
+		"abstract": "The ability of human beings to precisely recognize others intents is a significant mental activity in reasoning about actions, such as, what other people are doing and what they will do next. Recent research has revealed that human intents could be inferred by measuring human cognitive activities through heterogeneous body and brain sensors (e.g., sensors for detecting physiological signals like ECG, brain signals like EEG and IMU sensors like accelerometers and gyros etc.). In this proposal, we aim at developing a computational framework for enabling reliable and precise real-time human intent recognition by measuring human cognitive and physiological activities through the heterogeneous body and brain sensors for improving human machine interactions, and serving intent-based human activity prediction.",
+		"container-title": "2018 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops)",
+		"DOI": "10.1109/PERCOMW.2018.8480331",
+		"event-title": "2018 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops)",
+		"page": "456-457",
+		"source": "IEEE Xplore",
+		"title": "Context-aware Human Intent Inference for Improving Human Machine Cooperation",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xiang"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					3
+				]
+			]
+		}
+	}
+]
